@@ -15,7 +15,7 @@ import qrcode
 # example data
 data = "Beat Zimmermann Socio 00003"
 # output file name
-filename = "socio00003.png"
+filename = "socio_qr.png"
 # generate qr code
 img = qrcode.make(data)
 # save img to a file
