@@ -4,16 +4,17 @@
 # 
 ##########################################################################
 
-version = '1.0'
+version = '1.1'
 
 # version history
 # v0.1 07/10/2024 initial version (basic only)
 # v0.2 09/10/2024 added styled method for vertical bars and gradient
-# v0.3 09/10/2024 added pandas for handling member data
+# v0.3 added pandas for handling member data
 # v0.4 converted whole dataframe to type str
 # v0.5 added batch import functionality
 # v0.6 changed formatting of data string for QR code text
 # v1.0 first fully functional version published
+# v1.1 moved QR code files to subfolder
 
 
 # dependencies (one-time)
@@ -60,5 +61,5 @@ for ind in df.index:
     qr.add_data(data)
     img = qr.make_image(image_factory=StyledPilImage, module_drawer=VerticalBarsDrawer(), 
                         color_mask=RadialGradiantColorMask(), embeded_image_path="logo.png")
-    img.save(df['Email'][ind] + ".png")
-    
+    qrCodeFile = "Tarjetas\\" + df["Email"][ind] + ".png"
+    img.save(qrCodeFile)
