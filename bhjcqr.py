@@ -28,7 +28,6 @@ img = qrcode.make(data)
 # save img to a file
 img.save("Beat Zimmermann.png")
 
-
 # styled method
 
 from qrcode.image.styledpil import StyledPilImage
@@ -36,7 +35,7 @@ from qrcode.image.styles.moduledrawers.pil import RoundedModuleDrawer
 from qrcode.image.styles.colormasks import RadialGradiantColorMask
 
 # input data
-data = "Robert Carnicero - Socio 00001"
+data = "Beat Zimmermann \n Socio Nº 00003"
 qr = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H)
 qr.add_data(data)
 
