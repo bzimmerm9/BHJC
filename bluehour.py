@@ -51,15 +51,15 @@ for ind in df.index:
     print("Nombre: " + df['Nombre'][ind] + chr(10),
           "Socio: " + df['Socio'][ind] + chr(10), 
           "Tipo Socio: " + df['Membresia'][ind] + chr(10), 
-          "Valido hasta: " + df['Validez'][ind] + chr(10))
-    
+          "Valido hasta: " + df['validez'][ind] + chr(10)),
+              
     # input data and generate QR code with email address as filename.png
 
-    data = "Nombre: " + df['Nombre'][ind] + chr(10) + "Socio: " + df['Socio'][ind] + chr(10) + "Tipo Socio: " + df['Membresia'][ind] + chr(10) + "Valido hasta: " + df['Validez'][ind]
+    data = "Nombre: " + df['Nombre'][ind] + chr(10) + "Socio: " + df['Socio'][ind] + chr(10) + "Tipo Socio: " + df['Membresia'][ind] + chr(10) + "Valido hasta: " + df['validez'][ind]
     
     qr = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H)
     qr.add_data(data)
     img = qr.make_image(image_factory=StyledPilImage, module_drawer=VerticalBarsDrawer(), 
                         color_mask=RadialGradiantColorMask(), embeded_image_path="logo.png")
-    qrCodeFile = "Tarjetas\\" + df["Email"][ind] + ".png"
+    qrCodeFile = "Tarjetas\\" + df["email"][ind] + ".png"
     img.save(qrCodeFile)
