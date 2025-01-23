@@ -15,7 +15,7 @@ version = '1.1'
 # v0.6 changed formatting of data string for QR code text
 # v1.0 first fully functional version published
 # v1.1 moved QR code files to subfolder
-
+# v1.2 added Nombre to file name
 
 # dependencies (one-time)
 # pip3 install opencv-python qrcode numpy pillow pandas
@@ -61,5 +61,5 @@ for ind in df.index:
     qr.add_data(data)
     img = qr.make_image(image_factory=StyledPilImage, module_drawer=VerticalBarsDrawer(), 
                         color_mask=RadialGradiantColorMask(), embeded_image_path="logo.png")
-    qrCodeFile = "Tarjetas\\" + df["email"][ind] + ".png"
+    qrCodeFile = "Tarjetas\\" + df["Nombre"][ind] + " - " + df["email"][ind] + ".png"
     img.save(qrCodeFile)
