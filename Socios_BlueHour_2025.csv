@@ -1,35 +1,9 @@
-Nombre,Socio,Membresia,email,validez,emitido
-Rober Carnicero,1,Familiar,rober.carnicero@gmail.com,31/12/2025,SI
-Rocio Canas,1,Familiar,rccaicoya@gmail.com,31/12/2025,SI
-Martin Carnicero,1,Familiar,rccaicoya@gmail.com,31/12/2025,NO
-Juan Carnicero,1,Familiar,rccaicoya@gmail.com,31/12/2025,NO
-Beat Zimmerman,2,Familiar,bzimmerma@gmail.com,31/12/2025,SI
-Meritxell Guinea,2,Familiar,guineameritxell@gmail.com,31/12/2025,SI
-Lorea Zimmermann,2,Familiar,lozimmermann@hotmail.com,31/12/2025,SI
-Itsaso Zimmermann,2,Familiar,itsasozimmermann@gmail.com,31/12/2025,SI
-Jorge Monasterio,3,Familiar,jorgeluanco@gmail.com,31/12/2025,NO
-Nuria Prado,3,Familiar,jorgeluanco@gmail.com,31/12/2025,NO
-Carlos Monasterio,3,Familiar,jorgeluanco@gmail.com,31/12/2025,NO
-Liliana Llorente,4,Familiar,lilillorente@gmail.com,31/12/2025,NO
-Javier Chupi,4,Familiar,javimeras@gmail.com,31/12/2025,NO
-Silvia Bogas,5,Familiar,bogasmariola@hotmail.com,31/12/2025,NO
-Mariola Bogas,5,Familiar,bogasmariola@hotmail.com,31/12/2025,NO
-Luis Fernandez,5,Familiar,bogasmariola@hotmail.com,31/12/2025,NO
-Alberto Pereda,6,Familiar,albertoperedangulo@yahoo.es,31/12/2025,NO
-Isabel Pineiro Sierra,6,Familiar,albertoperedangulo@yahoo.es,31/12/2025,NO
-Teo Pereda Pineiro,6,Familiar,albertoperedangulo@yahoo.es,31/12/2025,NO
-Tona Carrera,7,Individual,maricarrera9165@gmail.com,31/12/2025,NO
-Laura Santos,8,Familiar,laurasantosr21@gmail.com,31/12/2025,NO
-Carlos Suarez Caballero,8,Familiar,laurasantosr21@gmail.com,31/12/2025,NO
-Enol Suarez,8,Familiar,laurasantosr21@gmail.com,31/12/2025,NO
-Jose Javier Garcia Penas,9,Individual,javiwhitestones@hotmail.com,31/12/2025,NO
-Irene Soto,10,Familiar,islobon62@hotmail.com,31/12/2025,NO
-Juan Antonio Garcia,10,Familiar,islobon62@hotmail.com,31/12/2025,NO
-Ramon Menendez,11,Familiar,anaisabelgonzaleziglesias@gmail.com,31/12/2025,NO
-Ana Isabel Gonzalez,11,Familiar,anaisabelgonzaleziglesias@gmail.com,31/12/2025,NO
-Luis Brun Rodriguez,12,Familiar,angelalijostes2010@hotmail.com,31/12/2025,NO
-Angela Garcia Fernandez,12,Familiar,angelalijostes2010@hotmail.com,31/12/2025,NO
-Marta Brun Garcia,12,Familiar,angelalijostes2010@hotmail.com,31/12/2025,NO
-Jorge Fernandez Ramos,13,Individual,jorgefdzramos@gmail.com,31/12/2025,NO
-Eduardo Zaragoza,14,Individual,hotelvillanuevasanjorgedeheres@gmail.com,31/12/2025,NO
-Miguel Menendez Artime,15,Individual,miguelartime@yahoo.com,31/12/2025,NO
+Nombre;Socio;Membresia;email;validez;emitido
+Marco Martinez;16;Individual;marco@marcomartinez.es;31/12/2025;
+Ramon Isidoro Perez;17;Familiar;ramon@ramonisidoro.com;31/12/2025;
+Mercedes Gonzalez;17;Familiar;ramon@ramonisidoro.com;31/12/2025;
+Bruno Isidoro Perez;17;Familiar;ramon@ramonisidoro.com;31/12/2025;
+Marcelino Artime;18;Familiar;artimefernandezmarcelino@gmail.com;31/12/2025;
+Charo Gutierrez;18;Familiar;charogutiro@gmail.com;31/12/2025;
+Leopoldo Artime;18;Familiar;charogutiro@gmail.com;31/12/2025;
+Emilia Escobar;19;Individual;emiliamontsalve@telecable.es;31/12/2025;
